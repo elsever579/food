@@ -1,0 +1,33 @@
+.col{
+    background-color:black;
+    padding: 30px;
+    border: 1px solid  red;
+    color: white
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: 
+    
+"A A A"
+"B C D"
+ "B E E";
+ text-align: center
+    
+}
+.col1{
+    grid-area: A
+}
+.col2{
+    grid-area: B
+
+}
+.col3{
+    grid-area: C
+}
+.col4{
+    grid-area: D
+}
+.col5{
+grid-area: E
+}
